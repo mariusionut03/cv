@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+}
+
+#personal-image {
+    float: left;
+    border-radius: 50%;
+    margin: 0px 30px 20px 10px;
+}
+
+#div-education {
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: -7px;
+}
+
+.button {
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    transition-duration: 0.5s;
+}
