@@ -2,62 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MIB - Homepage</title>
     <link rel="stylesheet" href="css/styles.css">
-
-    <!-- FONTS -->
+    <title>MIB - Personal Website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="upper-navigation">
-        <button onclick="window.location.href='#hyperlink1';" class="upper-navigation-buttons" style="margin-left: 1px;">Homepage</button>
-        <button onclick="window.location.href='#hyperlink2';" class="upper-navigation-buttons">Projects</button>
-        <button class="upper-navigation-buttons">Learn</button>
-        <button onclick="window.location.href='#hyperlink3';" class="upper-navigation-buttons">Contact</button>
-        <button class="upper-navigation-settings" style="margin-right:1px;">⚙️</button>
+    <div class="first-div">
+        <img id="first-cloud" src="images/cloud.png" alt="cloud">
+        <h1>I'm Mariusel</h1>
+        <h2>a computer science student.</h2>
+        <img id="second-cloud" src="images/cloud.png" alt="cloud">
     </div>
 
-    <div id="hyperlink1" class="homepage-content">
-        <h1>I'm Marius-Ionut</h1>
-        <p>
-            a Computer Science student<br>
-            at Univeristy Politehnica of Bucharest
-        </p>
-        <img class="pngtree" src="images/pngtree.png" alt="programming-photo" />
+    <img class="rounded-images" src="images/homeless-code-for-food.jpg" alt="profile picture">
+    <div class="second-div">
+        <h2>Hello.</h2>
+        <p>My name is Marius-Ionut and i'm a student at University Politehnica of Bucharest. I love coffee, gaming and beer.</p>
     </div>
 
-    <div id="hyperlink2" class="homepage-content">
-        <h1>Some of my projects</h1>
-        <p>
-            <span>1. My personal site</span> (HTML, CSS, JS)<br>
-            <span>2. Informatica pentru Bacalaureat</span> (Java, XML - Android Application)<br>
-            <span>3. My hobby list</span> (React, Firebase - Web Application)<br>
-            <span>4. My Games List</span> (C - Console Application)<br>
-            <span>5. Gambling Simulator</span> (C# - WPF Application)<br>
-        </p>
+    <hr>
+
+    <h2>My Skills.</h2>
+    <div class="third-div">
+        <div class="skills-row">
+            <img class="skills-images programming-image" src="images/programming.png" alt="programming">
+            <h3>Design & Development</h3>
+            <p>I'm learning Web Development part-time. I'm learning C, Java, Assembley in University. Tried everything, from Mobile to Game Development. I started programming when I was 14 years old, and I want to do this in my career.</p>
+        </div>
+        <div class="skills-row">
+            <img class="skills-images console-image" src="images/console.png" alt="console">
+            <h3>Gaming</h3>
+            <p>I started playing video games when I was very young. RPG, Shooters, I mastered every type of game. I build friendships around video games, I followed stories even better than any book and I love everything about this industry. My love for coding started because I wanted to make my own games.</p>
+        </div>
+        <div class="skills-row">
+            <img class="skills-images beer-image" src="images/beer.png" alt="beer">
+            <h3>Beer</h3>
+            <p>Artisanal beer is the only drink I want to have for the rest of my life. Every evening I like to finish my day with a beer, I feel like I can't sleep without one. Maybe that's a problem.</p>
+        </div>
     </div>
 
-    <div id="hyperlink3" class="homepage-content">
-        <h1>Contact</h1>
-        <h2>I'm available for freelance work:</h2>
-        <p>
-            <span>Web Development</span> (Frontend/Backend)<br>
-            <span>Android Applications</span><br>
-            <span>C/C++ Applications</span><br>
-        </p>
-        <h2>Text me at:</h2>
-        <p>
-            <span>Phone:</span> +40 758 000 000<br>
-            <span>Email:</span> ionutteq222@gmail.com
-        </p>
+    <hr>
+
+    <div class="forth-div">
+        <h2>Get in Touch</h2>
+        <h3>If you love beer as much as I do.</h3>
+        <p>Love beer as much as I do? Let's drink a shit ton of beer and code together.</p>
+        <button class="contact-button" onclick="location.href='mailto:ionutteq222@gmail.com';">Contact me</button>
     </div>
 
-    <button id="return-to-the-top" onclick="window.location.href='#';">⬆️</button>
+    <div class="footer-div">
+        <a href="#" class="links-margin">LinkedIn</a>
+        <a href="#" class="links-margin">Twitter</a>
+        <a href="#">Website</a>
+        <p class="footer-text">© 2023 MIB @ At nothing.</p>
+    </div>
 </body>
 </html>
