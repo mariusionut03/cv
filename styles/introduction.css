@@ -1,0 +1,9 @@
+#introduction h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+}
+
+#introduction p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
