@@ -17,10 +17,10 @@ h1 {
 }
 
 #hobbies img {
-    width: 15rem;
+    width: 60%;
 }
 
-#hobbies h1 {
+#hobbies h2 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     font-size: 2rem;
