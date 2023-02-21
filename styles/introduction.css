@@ -1,4 +1,4 @@
-#introduction h1 {
+h1 {
     font-family: 'Pacifico', cursive;
     font-size: 4rem;
 }
@@ -6,4 +6,28 @@
 #introduction p {
     font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
+}
+
+#skills p {
+    font-size: 1.25rem;
+}
+
+#hobbies .container {
+    padding: 0 3%;
+}
+
+#hobbies img {
+    width: 15rem;
+}
+
+#hobbies h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: left;
+}
+
+#hobbies p {
+    font-size: 1.2rem;
+    text-align: left;
 }

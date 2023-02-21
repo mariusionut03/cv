@@ -3,5 +3,9 @@ body {
 }
 
 .rounded-images {
-    border-radius: 50%;
+    border-radius: 100%;
+}
+
+.align-text-right {
+    text-align: right;
 }
