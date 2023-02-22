@@ -9,3 +9,54 @@ body {
 .align-text-right {
     text-align: right;
 }
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel .carousel-indicators button {
+    background-color: grey;
+}
+
+.carousel .carousel-indicators button.active {
+    background-color: black;
+}
+
+#introduction,
+#hobbies,
+#projects,
+#footer {
+    background-color: #ffebb3;
+}
+
+#education .colored-theme {
+    color: black;
+    border-color: #D3D3D3;
+    background-color: #ffebb3;
+}
+
+#education .colored-theme:hover {
+    background-color: #f0dda8;
+}
+
+#scroll-back-on-top {
+    display: none;
+    position: fixed;
+    border: 0;
+    background-color: transparent;
+    line-height: 3.8rem;
+    font-size: 5rem;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+#scroll-back-on-top:hover {
+    border-color: #D3D3D3;
+
+}

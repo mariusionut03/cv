@@ -37,3 +37,39 @@ h1 {
 .hobby-image {
     max-width: 15rem;
 }
+
+.carousel-item {
+    padding: 5% 15%;
+    background-color: #f0dda8;
+}
+
+.carousel-inner, .carousel-item {
+    min-height: 350px;
+}
+
+.project-title {
+
+}
+
+.project-platform {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 300;
+}
+
+.project-lang {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 300;
+}
+
+.project-status {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 300;
+}
+
+.project-status a {
+    text-decoration: none;
+    font-style: italic;
+}
