@@ -9,7 +9,8 @@ h1 {
 }
 
 #skills p {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 #hobbies .container {
@@ -17,7 +18,7 @@ h1 {
 }
 
 #hobbies img {
-    width: 60%;
+    width: 80%;
 }
 
 #hobbies h2 {
@@ -28,6 +29,11 @@ h1 {
 }
 
 #hobbies p {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
+    font-weight: 400;
     text-align: left;
+}
+
+.hobby-image {
+    max-width: 15rem;
 }
